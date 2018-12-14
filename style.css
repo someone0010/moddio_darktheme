@@ -9,7 +9,7 @@
 }
 
 body {
-    background: rgba(54, 57, 63, 0.5);
+    background: rgb(54, 57, 63);
 }
 
 div.col-sm-12 {
@@ -25,12 +25,8 @@ div.token.token-removeable {
     color: white;
 }
 
-div.white-background.flex-grow-1.flex-shrink-1.pb-0.row, div.editorBackground.d-flex.pl-4.col-9 {
-    background-color: rgba(54, 57, 63, 0.3);
-}
-
-div.rowContents.align-center-vertically, div.white-background.d-flex.flex-shrink-1.flex-grow-1.row, div.modal-content, div.d-flex.flex-column, div.logs-container.white-background.px-0, div.editorBackground.col-12, .homepage-theme, .container-fluid, div.col-sm-3.rounded.pr-0, div.col-sm-9.inner-div-container.border-right, .slider, tbody tr td, div.margin-top-10.padding-10.mb-4.card, ol.breadcrumb, div.margin-top-50.padding-10.card, div.margin-top-10.padding-10.margin-bottom-10.card, input.form-control.bootstrap-typeahead-input-hint, .dropdown-menu, div.card-body, .custom-control-description {
-    background-color: rgba(54, 57, 63, 0.4);
+div.game-card.cursor-pointer.card, div.d-flex.flex-column.w-100, div.d-flex.flex-column, div.white-background.flex-grow-1.flex-shrink-1.pb-0.row, div.editorBackground.d-flex.pl-4.col-9, div.rowContents.align-center-vertically, div.white-background.d-flex.flex-shrink-1.flex-grow-1.row, div.modal-content, div.d-flex.flex-column, div.logs-container.white-background.px-0, div.editorBackground.col-12, .homepage-theme, .container-fluid, div.col-sm-3.rounded.pr-0, div.col-sm-9.inner-div-container.border-right, .slider, tbody tr td, div.margin-top-10.padding-10.mb-4.card, ol.breadcrumb, div.margin-top-50.padding-10.card, div.margin-top-10.padding-10.margin-bottom-10.card, input.form-control.bootstrap-typeahead-input-hint, .dropdown-menu, div.card-body, .custom-control-description {
+    background-color: rgb(54, 57, 63);
     color: white;
 }
 
@@ -40,9 +36,5 @@ div[style="rgb(255, 233, 233)"] {
 
 span[style="color: blue;"], .link {
     color: royalblue;
-}
-
-div.game-card.cursor-pointer.card, div.d-flex.flex-column.w-100, div.d-flex.flex-column {
-    background-color: rgba(54, 57, 63, 0.5);
 }
 
