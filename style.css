@@ -1,41 +1,54 @@
-/* HIGHLIGHT control. Google "color picker" and choose one of your choice to change the HIGHLIGHT color (input, action landpad, options etc.)*/
-
-.rowLandingPad, div.bootstrap-tokenizer.clearfix.form-control, input, button.wrap-text.list-group-item-action.list-group-item, li.cursor-pointer.draggable-item-add, select.form-control, a.cursor-pointer.nav-link.active, a.active.nav-link, textarea.form-control, div.footer.bg-light.text-dark.px-2, div.game-title.px-3, div.d-flex.justify-content-center.pb-1.game-owner.px-2, body > div:nth-child(29) > div > div.modal.fade.show > div > div > div.modal-body > div > form > div:nth-child(2) > div > div > ul :hover, .dropdown-menu > li :hover, .dropdown-item:hover {
-    background-color: #636363;
-    border: none;
-    color: white;
+.container-fluid,.custom-control-description,.dragable-item.cursor-pointer,.dropdown-item,.dropdown-menu,.gameBackground,.homepage-theme,.slider,a.btn.btn-sm.btn-outline-dark,body,div.bg-white.container,div.card-body,div.col-sm-12.text-center,div.col-sm-3.rounded.pr-0,div.col-sm-9.inner-div-container.border-right,div.d-flex.flex-column,div.editorBackground.col-12,div.logs-container.white-background.px-0,div.margin-top-10.padding-10.margin-bottom-10.card,div.margin-top-10.padding-10.mb-4.card,div.margin-top-50.padding-10.card,div.modal-content,div.rowContents.align-center-vertically,div.white-background.d-flex.flex-shrink-1.flex-grow-1.row,div.white-bg,div.white-bg.col-md-7.col-lg-12,input.form-control.bootstrap-typeahead-input-hint,ol.breadcrumb,tbody tr td, div.white-background.min-height, div.col-sm-12 div {
+    background-color: rgba(54,57,63,1);
+    color: #fff;
 }
 
-::placeholder, .height-100, div.col.table-cell, th.sort-column, pre, label.col-sm-3.col-form-label {
-    color: white;
+.dropdown-item:hover,.dropdown-menu>li :hover,.rowLandingPad,a.active.nav-link,a.cursor-pointer.nav-link.active,body>div:nth-child(29)>div>div.modal.fade.show>div>div>div.modal-body>div>form>div:nth-child(2)>div>div>ul :hover,button.wrap-text.list-group-item-action.list-group-item,div.bootstrap-tokenizer.clearfix.form-control,div.d-flex.justify-content-center.pb-1.game-owner.px-2,div.footer.bg-light.text-dark.px-2,div.game-title.px-3,input,li.cursor-pointer.draggable-item-add,select.form-control,textarea.form-control, span.text-center.badge.badge-pill.badge-light, button.flex-shrink-0.p-2.list-group-item-action.list-group-item {
+    background-color: #636363;
+    border: none;
+    color: #fff;
+}
+
+.height-100,::placeholder,div.col.table-cell,label.col-sm-3.col-form-label,pre,th.sort-column {
+    color: #fff;
+}
+
+.link,span[style="color: blue;"] {
+    color: #4169e1;
+}
+
+::-webkit-scrollbar {
+    background-color: rgba(54,57,63,1);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #636363
+;
 }
 
 div.col-sm-12 {
-    color: transparent ;
+    color: transparent;
 }
 
 div.container.d-flex.justify-content-center.align-items-center {
-    box-shadow: 0px 0px none;
+    box-shadow: 0 0 none;
+}
+
+div.d-flex.position-absolute, div.text-center.mx-1, div.position-absolute, img.ml-1 {
+    background-color: transparent;
+}
+
+div.d-flex.flex-column,div.d-flex.flex-column.w-100,div.game-card.cursor-pointer.card, nav.px-0.navbar.navbar-expand-md.navbar-light.bg-light, iframe, div.text-center {
+    background-color: rgba(54,57,63,1);
+    color: white;
+}
+
+div.editorBackground.d-flex.pl-4.col-9,div.white-background.flex-grow-1.flex-shrink-1.pb-0.row {
+    background-color: rgba(54,57,63,.3);
 }
 
 div.token.token-removeable {
     background-color: grey;
-    color: white;
+    color: #fff;
 }
 
-div.white-background.flex-grow-1.flex-shrink-1.pb-0.row, div.editorBackground.d-flex.pl-4.col-9 {
-    background-color: rgba(54, 57, 63, 0.3);
-}
-
-div.rowContents.align-center-vertically, div.white-background.d-flex.flex-shrink-1.flex-grow-1.row, div.modal-content, div.d-flex.flex-column, div.logs-container.white-background.px-0, div.editorBackground.col-12, .homepage-theme, .container-fluid, div.col-sm-3.rounded.pr-0, div.col-sm-9.inner-div-container.border-right, .slider, tbody tr td, div.margin-top-10.padding-10.mb-4.card, ol.breadcrumb, div.margin-top-50.padding-10.card, div.margin-top-10.padding-10.margin-bottom-10.card, input.form-control.bootstrap-typeahead-input-hint, .dropdown-menu, div.card-body, .custom-control-description, div.white-bg.col-md-7.col-lg-12, div.col-sm-12.text-center, a.btn.btn-sm.btn-outline-dark, div.white-bg, div.bg-white.container, body, .dragable-item.cursor-pointer, .dropdown-menu, .dropdown-item, .gameBackground {
-    background-color: rgba(54, 57, 63, 1);
-    color: white;
-}
-
-span[style="color: blue;"], .link {
-    color: royalblue;
-}
-
-div.game-card.cursor-pointer.card, div.d-flex.flex-column.w-100, div.d-flex.flex-column {
-    background-color: rgba(54, 57, 63, 1);
-}
